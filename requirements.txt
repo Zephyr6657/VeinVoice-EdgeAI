@@ -1,0 +1,7 @@
+ultralytics>=8.2.0
+torch
+torchvision
+onnx
+onnxsim
+onnxruntime
+tensorflow

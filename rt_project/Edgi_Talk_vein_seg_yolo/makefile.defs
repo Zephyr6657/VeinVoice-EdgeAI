@@ -1,0 +1,9 @@
+# Keep the generated link command short on Windows by moving object inputs
+# into a response file consumed by the C++ linker command in .cproject.
+OBJS += \
+../build/kernel/components/net/sal/socket/net_netdb.o \
+../build/kernel/components/net/sal/socket/net_sockets.o \
+../build/libraries/HAL_Drivers/drv_sdio.o \
+../build/libraries/components/mtb-device-support-pse8xxgp/hal/source/mtb_hal_sdhc.o \
+../build/libraries/components/mtb-device-support-pse8xxgp/pdl/drivers/source/cy_sd_host.o \
+../build/rt-thread/components/utilities/ymodem/ymodem.o

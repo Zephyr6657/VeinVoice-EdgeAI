@@ -1,0 +1,46 @@
+# Python
+.venv/
+.venv_train/
+__pycache__/
+*.py[cod]
+
+# Local IDE state
+.idea/
+.vscode/
+
+# Datasets and generated ML artifacts
+data1/
+datasets/
+Hand-Veins-Dataset/
+my_test_images/
+runs/
+*.pth
+*.pt
+*.onnx
+*.tflite
+
+# Logs and temporary files
+*.log
+*.err.log
+*.tmp
+
+# Embedded/toolchain caches
+tools/python310/
+wheelhouse/
+python-*-embed-amd64.zip
+
+# RT-Thread build outputs
+**/Debug/
+**/build/
+**/.sconsign.dblite
+**/*.o
+**/*.elf
+**/*.hex
+**/*.map
+**/*.bin
+**/*.pyc
+
+# Secrets
+.env
+*.key
+*.pem
